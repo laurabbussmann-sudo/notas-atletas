@@ -39,9 +39,9 @@ function calcularNotas(objAtletas) {
     console.log(`Atleta: ${atleta.nome}`);
     console.log(`Notas Obtidas: ${atleta.notas.join(",")}`);
     console.log(`Média Válida: ${media}`);
-    console.log(""); // linha em branco
+    console.log(""); 
   }
 }
 
-// Executa
+
 calcularNotas(atletas);
